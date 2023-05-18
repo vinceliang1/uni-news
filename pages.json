@@ -1,0 +1,57 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": "视频",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "爱微闻",
+		"navigationBarBackgroundColor": "#3C9CFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3C9CFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tarBar/index.png",
+			"selectedIconPath": "static/tarBar/index-active.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/video/video",
+			"iconPath": "static/tarBar/video.png",
+			"selectedIconPath": "static/tarBar/video-active.png",
+			"text": "视频"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/tarBar/my.png",
+			"selectedIconPath": "static/tarBar/my-active.png",
+			"text": "我的"
+		}]
+	},
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"uniIdRouter": {}
+}
