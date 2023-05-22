@@ -6,7 +6,7 @@
 			</view>
 			<view v-for="item in list" :key="item.id">
 				<template v-if="!item.videoUrl">
-					<NewsItem />
+					<NewsItem :row="item" />
 				</template>
 				<template v-if="item.videoUrl">
 					<NewsVideoItem />

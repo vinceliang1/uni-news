@@ -24,9 +24,23 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.img-wrap.data-v-3c13e87c {
+.news-item-wrap.data-v-3c13e87c {
+  border-bottom: 1rpx solid #d7d7d7;
+  padding: 30rpx 10rpx;
+}
+.news-item-wrap .title-box text.data-v-3c13e87c {
+  font-weight: 700;
+}
+.news-item-wrap .img-box.data-v-3c13e87c {
   display: flex;
   justify-content: space-between;
-  padding: 10rpx;
+  padding: 30rpx 0;
+}
+.news-item-wrap .info-box text.data-v-3c13e87c {
+  color: #b7b7b7;
+  font-size: 25rpx;
+}
+.news-item-wrap .info-box .time.data-v-3c13e87c {
+  margin-left: 20rpx;
 }
 
