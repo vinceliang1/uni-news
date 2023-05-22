@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "z-paging": "/uni_modules/z-paging/components/z-paging/z-paging",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "news-item": "/pages/index/NewsItem",
+    "news-video-item": "/pages/index/NewsVideoItem"
+  }
+}
