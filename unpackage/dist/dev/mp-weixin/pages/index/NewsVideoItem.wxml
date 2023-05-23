@@ -1,1 +1,1 @@
-<view class="_div">-----------------</view>
+<view class="news-video-wrap data-v-56f26fd6"><view class="title-box data-v-56f26fd6"><text class="data-v-56f26fd6">{{row.title}}</text></view><view class="video-box data-v-56f26fd6"><video poster="{{row.url}}" src="{{row.videoUrl}}" class="data-v-56f26fd6"></video></view><view class="info-box data-v-56f26fd6"><text class="data-v-56f26fd6">{{row.author}}</text><text class="time data-v-56f26fd6">{{row.time}}</text></view></view>

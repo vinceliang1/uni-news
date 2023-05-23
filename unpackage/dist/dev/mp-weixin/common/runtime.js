@@ -105,7 +105,7 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"uni_modules/z-paging/components/z-paging/z-paging":1,"uview-ui/components/u-tabs/u-tabs":1,"pages/index/NewsItem":1,"uni_modules/z-paging/components/z-paging-empty-view/z-paging-empty-view":1,"uni_modules/z-paging/components/z-paging/components/z-paging-load-more":1,"uni_modules/z-paging/components/z-paging/components/z-paging-refresh":1,"uview-ui/components/u-badge/u-badge":1,"uview-ui/components/u-image/u-image":1,"uview-ui/components/u-icon/u-icon":1,"uview-ui/components/u-transition/u-transition":1};
+/******/ 		var cssChunks = {"uni_modules/z-paging/components/z-paging/z-paging":1,"uview-ui/components/u-tabs/u-tabs":1,"pages/index/NewsItem":1,"pages/index/NewsVideoItem":1,"uni_modules/z-paging/components/z-paging-empty-view/z-paging-empty-view":1,"uni_modules/z-paging/components/z-paging/components/z-paging-load-more":1,"uni_modules/z-paging/components/z-paging/components/z-paging-refresh":1,"uview-ui/components/u-badge/u-badge":1,"uview-ui/components/u-image/u-image":1,"uview-ui/components/u-icon/u-icon":1,"uview-ui/components/u-transition/u-transition":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
