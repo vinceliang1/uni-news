@@ -1,5 +1,9 @@
 {
   "navigationBarTitleText": "视频",
   "enablePullDownRefresh": false,
-  "usingComponents": {}
+  "usingComponents": {
+    "z-paging": "/uni_modules/z-paging/components/z-paging/z-paging",
+    "u--image": "/uview-ui/components/u--image/u--image",
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
 }
