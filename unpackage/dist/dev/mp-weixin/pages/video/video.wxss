@@ -48,12 +48,25 @@
   width: 100%;
   z-index: 1;
   color: #fff;
-  background: rgba(0, 0, 0, 0.7);
   padding: 10rpx;
   box-sizing: border-box;
 }
 .video-item .video-box .video-title-box .video-title.data-v-3ec61a7e {
   font-weight: 700;
+}
+.video-item .video-box .play-btn-box.data-v-3ec61a7e {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: rgba(0, 0, 0, 0.7);
+  width: 70rpx;
+  height: 70rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -30rpx;
+  margin-top: -30rpx;
+  border-radius: 50%;
 }
 .video-item .info-box.data-v-3ec61a7e {
   display: flex;

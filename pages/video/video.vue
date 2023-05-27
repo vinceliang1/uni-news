@@ -8,6 +8,9 @@
 					</view>
 					<u--image :showLoading="true" src="https://cbanetcdn.cba.net.cn/u/cms/www/202112/01092019ribe.png"
 						width="100%" height="370rpx" mode="aspectFill"></u--image>
+						<view class="play-btn-box">
+							<u-icon name="play-right" color="#fff" size="40rpx"></u-icon>
+						</view>
 				</view>
 				<view class="info-box">
 					<view class="left">
@@ -107,13 +110,27 @@ export default {
 			width: 100%;
 			z-index: 1;
 			color: #fff;
-			background: rgba($color: #000000, $alpha: 0.7);
+			// background: rgba($color: #000000, $alpha: 0.7);
 			padding: 10rpx;
 			box-sizing: border-box;
 
 			.video-title {
 				font-weight: 700;
 			}
+		}
+		.play-btn-box{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			background: rgba($color: #000000, $alpha: .7);
+			width: 70rpx;
+			height: 70rpx;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-left: -30rpx;
+			margin-top: -30rpx;
+			border-radius: 50%;
 		}
 	}
 
