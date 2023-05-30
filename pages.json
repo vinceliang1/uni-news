@@ -21,7 +21,16 @@
 			}
 
 		}
-	],
+	    ,{
+            "path" : "pages/videoDetail/videoDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "爱微闻",

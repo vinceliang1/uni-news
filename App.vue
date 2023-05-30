@@ -45,4 +45,6 @@
 <style lang="scss">
 	/*每个页面公共css */
 	@import "@/uview-ui/index.scss";
+	// iconfont图标
+	@import "@/static/iconfont/iconfont.css"
 </style>
